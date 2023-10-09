@@ -1,0 +1,8 @@
+
+name: AI Agent
+type: module
+description: 'An AI agent that can be used to generate new content.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - openai:openai

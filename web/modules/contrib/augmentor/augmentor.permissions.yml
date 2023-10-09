@@ -1,0 +1,9 @@
+# Add access permission.
+administer augmentor:
+  title: 'Administer Augmentors'
+  description: 'Allows full administration access to create and edit augmentors.'
+  restrict access: true
+
+execute augmentor:
+  title: 'Execute Augmentors'
+  description: 'Allows users to execute augmentors.'

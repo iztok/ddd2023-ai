@@ -1,0 +1,14 @@
+name: OpenAI Content Generator
+type: module
+description: Uses OpenAI to generate content. This is a test module that will change over time and just demonstrates some features.
+package: OpenAI
+hidden: true
+core_version_requirement: ^10
+configure: openai_api.content_generation_config
+dependencies:
+  - openai:openai
+
+# Information added by Drupal.org packaging script on 2023-06-16
+version: '1.0.0-alpha14'
+project: 'openai'
+datestamp: 1686928730

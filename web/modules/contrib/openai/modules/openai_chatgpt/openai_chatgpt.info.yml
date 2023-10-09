@@ -1,0 +1,13 @@
+name: OpenAI ChatGPT
+type: module
+description: Adds a form in the admin to interact with OpenAI over the ChatGPT API endpoint.
+package: OpenAI
+core_version_requirement: ^10
+configure: openai_chatgpt.chat_form
+dependencies:
+  - openai:openai
+
+# Information added by Drupal.org packaging script on 2023-06-16
+version: '1.0.0-alpha14'
+project: 'openai'
+datestamp: 1686928730

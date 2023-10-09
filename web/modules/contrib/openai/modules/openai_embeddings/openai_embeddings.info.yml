@@ -1,0 +1,13 @@
+name: OpenAI Embeddings
+type: module
+description: Examines content and generates vectors to calculate relationships between strings.
+package: OpenAI
+core_version_requirement: ^10
+configure: openai_embeddings.settings
+dependencies:
+  - openai:openai
+
+# Information added by Drupal.org packaging script on 2023-06-16
+version: '1.0.0-alpha14'
+project: 'openai'
+datestamp: 1686928730

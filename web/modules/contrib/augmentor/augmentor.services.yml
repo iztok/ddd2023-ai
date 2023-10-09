@@ -1,0 +1,5 @@
+services:
+  plugin.manager.augmentor.augmentors:
+    class: Drupal\augmentor\AugmentorManager
+    parent: default_plugin_manager
+    arguments: ['@config.factory']

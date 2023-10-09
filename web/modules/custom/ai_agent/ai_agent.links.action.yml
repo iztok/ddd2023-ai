@@ -1,0 +1,9 @@
+ai_agent.content_action:
+  title: 'Generate content with AI'
+  route_name: ai_agent.content_action
+  weight: 10
+  appears_on:
+    - system.admin_content
+  description: 'Perform an action on selected content.'
+  requirements:
+    _permission: 'administer content'

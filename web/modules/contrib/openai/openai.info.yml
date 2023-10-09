@@ -1,0 +1,11 @@
+name: OpenAI
+type: module
+description: A set of modules to enable OpenAI integration with Drupal and augment the content experience with AI assisted tools.
+package: OpenAI
+core_version_requirement: ^10
+configure: openai.api_settings
+
+# Information added by Drupal.org packaging script on 2023-06-16
+version: '1.0.0-alpha14'
+project: 'openai'
+datestamp: 1686928730

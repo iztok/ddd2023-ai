@@ -1,0 +1,14 @@
+ai_agent.settings:
+  path: '/admin/config/system/ai-agent'
+  defaults:
+    _form: '\Drupal\ai_agent\Form\AiAgentSettingsForm'
+    _title: 'AI Agent Settings'
+  requirements:
+    _permission: 'administer site configuration'
+ai_agent.content_action:
+  path: '/admin/content/ai-generate'
+  defaults:
+    _form: '\Drupal\ai_agent\Form\AiAgentContentActionForm'
+    _title: 'AI Generate'
+  requirements:
+    _permission: 'administer content'
